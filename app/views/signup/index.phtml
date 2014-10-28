@@ -1,0 +1,36 @@
+<?php
+session_start();
+$_SESSION['views']=1;
+use Phalcon\Tag;
+echo "<!DOCTYPE html>
+
+<html>";
+echo "<title>Patrick Phalcon</title>";
+echo "<link href='http://fonts.googleapis.com/css?family=Signika:400,600' rel='stylesheet' type='text/css'>";
+echo "<div id='cssmenu'>
+<ul>
+   <li class='active'><span>";echo Phalcon\Tag::linkTo("index", "Fly"); echo "</span></a></li>
+   <li><a href='#'><span>Phalcon is cool</span></a></li>
+   <li><a href='#'><span>Phalcon Punch </span></a></li>
+   <li><a href='#'><span>";echo Phalcon\Tag::linkTo("chat", "Chat"); echo "</span></a></li>
+   <li class='last'><span>"; echo Phalcon\Tag::linkTo("signup", "Join Here"); echo "</span></li>
+</ul>
+</div>";
+echo $this->tag->stylesheetLink("css/phalcon.css");
+
+echo "<body align='center'>";
+
+echo "<h1>Sign up using this form</h1>";
+echo "<div id='boxy'>";
+echo Tag::form("signup/register");
+echo "<p><label for='name'>Username</label>";echo Tag::textField("username");echo "</p>
+<p><label for='email'>Name</label>"; echo Tag::textField("name");echo "</p>
+<p>";echo "</p> <p><label for='email'>E-Mail</label>"; echo Tag::textField("email");echo "</p>
+
+<p>"; echo Tag::submitButton("Register");echo "</p>
+</form>";
+echo "</div>";
+echo "</body> 
+</html>";
+
+

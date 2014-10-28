@@ -1,0 +1,469 @@
+body
+
+
+
+{
+
+
+    background-color:#2F8E7C;
+
+
+
+}
+
+
+
+h1
+
+
+
+{
+
+
+
+    text-align:center;
+
+
+
+    color:white;
+
+
+
+    border:1px solid #000000;
+
+
+font-family: 'Signika', sans-serif;
+    background-color:#DF09AD;
+    margin:50px;
+    margin-top:100px;
+
+    font-weight:bold;
+    font-size:48px;
+    right:10%;
+
+    left:10%;
+
+
+    padding-top: 20px;
+
+
+
+    padding-bottom: 20px;
+
+
+
+    border-top-left-radius: 50px 40px;
+
+
+
+    border-bottom-right-radius: 50px 40px;
+
+
+
+    border-bottom-left-radius: 50px 40px;
+
+
+
+    border-top-right-radius: 50px 40px;
+
+
+
+    background: #155DBC; 
+
+
+
+}
+
+#boxy
+
+{
+
+
+	position:absolute;
+
+	height: 1000px;
+	
+
+	color:white;
+
+	padding: 50px;
+
+	text-align:justify;
+
+	right:15%;
+
+	left:15%;
+
+	border-top-left-radius: 50px 40px;
+
+	border-bottom-right-radius: 50px 40px;
+
+	border-bottom-left-radius: 50px 40px;
+
+	border-top-right-radius: 50px 40px;
+
+	text-align:center;
+
+	margin-left:50px;
+
+	margin-right:50px;
+
+ 	margin-top: 20px;
+
+ 	margin-bottom:100px;
+
+ 	background: #155DBC; 
+
+}
+
+
+
+/*Menu Bar*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+
+
+/* Let's import the lovely google font, please keep this line at the top of your stylesheet */
+
+
+
+/* Menu CSS */#cssmenu,
+
+
+
+#cssmenu ul,
+
+
+
+#cssmenu ul li,
+
+
+
+#cssmenu ul li a {
+
+
+
+  padding: 0;
+
+
+
+  margin: 0;
+
+
+
+  line-height: 1;
+
+
+
+  font-family: 'Capriola', sans-serif;
+
+
+
+}
+
+
+
+#cssmenu:before,
+
+
+
+#cssmenu:after,
+
+
+
+#cssmenu > ul:before,
+
+
+
+#cssmenu > ul:after {
+
+
+
+  content: '';
+
+
+
+  display: table;
+
+
+
+}
+
+
+
+#cssmenu:after,
+
+
+
+#cssmenu > ul:after {
+
+
+
+  clear: both;
+
+
+
+}
+
+
+
+#cssmenu {
+
+
+
+  zoom: 1;
+
+
+
+  height: 69px;
+
+
+
+  margin:0px;
+
+
+
+  background: black repeat-x center bottom;
+
+
+
+    border-top-left-radius: 50px 40px;
+
+
+
+    border-bottom-right-radius: 50px 40px;
+
+
+
+    border-bottom-left-radius: 50px 40px;
+
+
+
+    border-top-right-radius: 50px 40px;
+
+
+
+  width: auto;
+
+
+
+  position: fixed;
+
+
+
+  right: 2%;
+
+
+
+  left: 2%;
+
+
+
+  top: 1%;
+
+
+
+  z-index: 99;
+
+
+
+}
+
+
+
+#cssmenu ul {
+
+
+
+  background: #155DBC;
+
+
+
+  height: 69px;
+
+
+
+  border-top-left-radius: 20px 15px;
+
+
+
+    border-bottom-right-radius: 20px 15px;
+
+
+
+    border-bottom-left-radius: 20px 15px;
+
+
+
+    border-top-right-radius: 20px 15px;
+
+
+
+}
+
+
+
+#cssmenu ul li {
+
+
+
+  float: left;
+
+
+
+  list-style: none;
+
+
+
+  
+
+
+
+}
+
+
+
+#cssmenu ul li a {
+
+
+
+  display: block;
+
+
+
+  height: 43px;
+
+
+
+  padding: 22px 30px 0;
+
+
+
+  margin: 4px 2px 0;
+
+
+
+  border-radius: 2px 2px 0 0;
+
+
+
+  text-decoration: none;
+
+
+
+  font-size: 15px;
+
+
+
+  
+
+
+
+  color: white;
+
+
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+
+
+
+  font-weight: 400;
+
+
+
+  opacity: .9;
+
+
+
+  
+
+
+
+}
+
+
+
+#cssmenu ul li:first-child a {
+
+
+
+  margin: 4px 2px 0 0;
+
+
+
+}
+
+
+
+#cssmenu ul li a:hover,
+
+
+
+#cssmenu ul li.active a {
+
+
+
+  background: #000000 center;
+
+
+
+  display: block;
+
+
+
+  height: 43px;
+
+
+
+  margin-top: 0px;
+
+
+
+  padding-top: 26px;
+
+
+
+  color: white;
+
+
+
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.55);
+
+
+
+  opacity: 1;
+
+
+
+}
+
+
+
+#signup
+
+
+
+{
+
+
+
+	float:right;
+
+
+
+	bottom:0%;
+
+
+
+	background:#33CFFF;
+
+
+
+}
+
+
+
+
